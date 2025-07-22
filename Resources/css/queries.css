@@ -81,7 +81,7 @@
   section {
     padding: 1.875rem 0;
   }
-
+  
   .row,
   .hero-text-box {
     width: 100%;
@@ -106,33 +106,37 @@
   }
 
   .step-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    margin: 1rem 0;
-    text-align: left;
-    padding: 0 1rem;
-    flex-wrap: wrap;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 1rem 0;
+  text-align: left;
+  padding: 0 1rem;
+  flex-wrap: nowrap;
+}
 
-  .step-item p {
-    font-size: 1rem;
-    margin: 0;
-    max-width: 70%;
-  }
+.step-item p {
+  font-size: 1rem;
+  margin: 0;
+  width: auto;
+}
+
 
   .work-steps {
-    float: none;
-    margin: 0;
-    height: 15vh;
-    width: auto;
-    font-size: 1.25rem;
-    padding: 0.3125rem;
-    border-radius: 50%;
-    text-align: center;
-    flex-shrink: 0;
-  }
+  float: none;
+  margin: 0;
+  height: 3rem;
+  width: 3rem;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 2rem;
+  flex-shrink: 0;
+}
+
 
   .btn-app {
     display: inline-block;
@@ -167,6 +171,25 @@
 
 /* small phones from 0 to 480px */
 @media only screen and (max-width: 30rem) {
+.logo {
+    height: 3.75rem;     /* equivalent to 60px if 1rem = 16px */
+    margin-top: 0.625rem; /* 10px */
+  }
+
+  .main-nav {
+    margin-top: 1.875rem; /* 30px */
+  }
+
+  .hero-text-box {
+    width: 90vw;
+  }
+
+  h1 {
+    font-size: 1.5rem;   /* slightly larger than base font */
+    line-height: 1.4;
+  }
+}
+  
   section {
     padding: 1.5625rem 0;
   }
