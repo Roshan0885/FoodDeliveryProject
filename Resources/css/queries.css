@@ -88,6 +88,12 @@
     padding: 0 4%;
   }
 
+   .logo {
+    height: 3.75rem;     /* equivalent to 60px if 1rem = 16px */
+    margin-top: 0.625rem; /* 10px */
+  }
+
+
   .col {
     width: 100%;
     margin: 0 0 4% 0;
@@ -95,6 +101,7 @@
 
   .main-nav {
     display: none;
+    margin-top: 1.875rem; /* 30px */
   }
 
   .app-screen {
