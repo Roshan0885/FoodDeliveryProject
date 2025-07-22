@@ -1,0 +1,189 @@
+/* big tablets 1200px */
+@media only screen and (max-width: 75rem) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+  .row {
+    padding: 0 2%;
+  }
+}
+
+/* small tablets to big tablets from 768px to 1023px */
+@media only screen and (max-width: 63.9375rem) {
+  .hero-text-box {
+    height: auto;
+    width: 100%;
+  }
+
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  body {
+    font-size: 1.125rem;
+    padding: 0;
+  }
+
+  section {
+    padding: 0 3.75rem;
+  }
+
+  .step-box {
+    margin-top: 0.625rem;
+  }
+
+  .step-box:last-child {
+    margin-top: 0.625rem;
+  }
+
+  .work-steps {
+    margin-bottom: 2.5rem;
+  }
+
+  .work-steps:last-of-type {
+    margin-bottom: 3.75rem;
+  }
+
+  .icon-small {
+    width: 1.0625rem;
+    margin-right: 0.3125rem;
+  }
+
+  .city-feature {
+    font-size: 90%;
+  }
+
+  .plan-box {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .plan-prize {
+    font-size: 2.5rem;
+    height: 18.75rem;
+    width: auto;
+  }
+
+  .contact-form {
+    width: 80%;
+  }
+}
+
+/* small phones to small tablets from 481px to 767px */
+@media only screen and (max-width: 47.9375rem) {
+  body {
+    font-size: 1rem;
+    padding: 0;
+  }
+
+  section {
+    padding: 1.875rem 0;
+  }
+
+  .row,
+  .hero-text-box {
+    width: 100%;
+    padding: 0 4%;
+  }
+
+  .col {
+    width: 100%;
+    margin: 0 0 4% 0;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .app-screen {
+    width: 50%;
+  }
+
+  .step-box:first-child {
+    text-align: center;
+  }
+
+  .step-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+    text-align: left;
+    padding: 0 1rem;
+    flex-wrap: wrap;
+  }
+
+  .step-item p {
+    font-size: 1rem;
+    margin: 0;
+    max-width: 70%;
+  }
+
+  .work-steps {
+    float: none;
+    margin: 0;
+    height: 15vh;
+    width: auto;
+    font-size: 1.25rem;
+    padding: 0.3125rem;
+    border-radius: 50%;
+    text-align: center;
+    flex-shrink: 0;
+  }
+
+  .btn-app {
+    display: inline-block;
+    margin-top: 1rem;
+  }
+
+  .btn-app img {
+    width: 8rem;
+    height: auto;
+    margin: 0.5rem;
+    border-radius: 0.3rem;
+  }
+
+  .work-steps:last-of-type {
+    margin-bottom: 1.25rem;
+  }
+
+  .section-testimonials {
+    height: 65rem;
+    width: auto;
+    background-attachment: fixed;
+  }
+
+  .btn-full {
+    margin-bottom: 0.3125rem;
+  }
+
+  .btn-ghost {
+    margin-top: 0.3125rem;
+  }
+}
+
+/* small phones from 0 to 480px */
+@media only screen and (max-width: 30rem) {
+  section {
+    padding: 1.5625rem 0;
+  }
+  .contact-form {
+    width: 100%;
+  }
+}
+
+/* desktops above 1200px */
+@media only screen and (min-width: 75.0625rem) {
+  body {
+    font-size: 1.25rem;
+    padding: 0;
+  }
+   .hero-text-box{
+    width: 100%;
+   }
+
+}
+
