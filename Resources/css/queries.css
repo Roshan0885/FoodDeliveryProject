@@ -100,7 +100,6 @@
 
   .main-nav {
     display: none;
-    margin-top: 1.875rem; 
   }
 
   .app-screen {
@@ -112,37 +111,33 @@
   }
 
   .step-item {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 1rem;
-  margin: 1rem 0;
-  text-align: left;
-  padding: 0 1rem;
-  flex-wrap: nowrap;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+    text-align: left;
+    padding: 0 1rem;
+    flex-wrap: wrap;
+  }
 
-.step-item p {
-  font-size: 1rem;
-  margin: 0;
-  width: auto;
-}
-
+  .step-item p {
+    font-size: 1rem;
+    margin: 0;
+    max-width: 70%;
+  }
 
   .work-steps {
-  float: none;
-  margin: 0;
-  height: 3rem;
-  width: 3rem;
-  font-size: 1.25rem;
-  padding: 0.5rem;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 2rem;
-  flex-shrink: 0;
-}
-
+    float: none;
+    margin: 0;
+    height: 15vh;
+    width: auto;
+    font-size: 1.25rem;
+    padding: 0.3125rem;
+    border-radius: 50%;
+    text-align: center;
+    flex-shrink: 0;
+  }
 
   .btn-app {
     display: inline-block;
