@@ -108,12 +108,15 @@
   
    .meals-showcase li {
     width: 48%;
+    margin: 1%;
     float: left;
   }
 
   .meal-photo {
     width: 100%;
     height: auto;
+    margin: 0;
+    padding:0;
     display: block;
   }
   
