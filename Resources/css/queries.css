@@ -107,26 +107,18 @@
     width: 50%;
   }
   
-  .meals-showcase {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-  }
-
-  .meals-showcase li {
+.meals-showcase li {
     width: 48%;
-    margin-bottom: 1rem;
+    margin:1%;
+    float: left;
   }
 
   .meal-photo {
     width: 100%;
     height: auto;
-    display: block;
     margin: 0;
-    padding: 0;
+    padding:0;
+    display: block;
   }
   
   .step-box:first-child {
