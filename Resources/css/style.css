@@ -513,3 +513,7 @@ footer p {
 .social-links li a:visited {
     font-size: 1.3rem;
 }
+
+.menu-icon {
+  display: none;
+}
