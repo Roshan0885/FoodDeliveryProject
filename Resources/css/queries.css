@@ -185,29 +185,54 @@
     z-index: 1001;
   }
 
-  .main-nav {
+ .menu-icon {
+    display: block;
+    font-size: 2rem;
+    background-color: grey;
+    border-radius: 0.3em;
+    color: #333;
+    cursor: pointer;
+    position: absolute;
+    top: 1.25rem;  
+    right: 1.25rem;
+    z-index: 1001;
+  }
+
+ #nav-links {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 3.75rem;  /* ~60px */
-    right: 1.25rem;
-    background-color: white;
+    color: rgba(10, 2, 2, 0.29);
+    right: 1.25rem; 
+    background-color: grey;
+    border-radius: 0.3em;
     width: 12rem;
     box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.2);
     z-index: 1000;
+
   }
 
-  .main-nav.show {
+  #nav-links.show {
     display: flex;
   }
 
-  .main-nav li {
+  #nav-links li {
     margin: 0.625rem 0;
+  }
+
+  #nav-links li a{
+    display: block;
+    color: #e67e22;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    text-align: center;
   }
 
   .row {
     position: relative;
   }
+
 }
 
 /* small phones from 0 to 480px */
