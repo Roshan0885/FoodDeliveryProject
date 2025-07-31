@@ -107,19 +107,7 @@
     width: 50%;
   }
   
-.meals-showcase li {
-    width: 48%;
-    margin:1%;
-    float: left;
-  }
 
-  .meal-photo {
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding:0;
-    display: block;
-  }
   
   .step-box:first-child {
     text-align: center;
@@ -182,6 +170,41 @@
 
   .btn-ghost {
     margin-top: 0.3125rem;
+  }
+
+  .menu-icon {
+    display: block;
+    font-size: 2rem;
+    color: #333;
+    cursor: pointer;
+    position: absolute;
+    top: 1.25rem;  /* 20px */
+    right: 1.25rem;
+    z-index: 1001;
+  }
+
+  .main-nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 3.75rem;  /* ~60px */
+    right: 1.25rem;
+    background-color: white;
+    width: 12rem;
+    box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+
+  .main-nav.show {
+    display: flex;
+  }
+
+  .main-nav li {
+    margin: 0.625rem 0;
+  }
+
+  .row {
+    position: relative;
   }
 }
 
