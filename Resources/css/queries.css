@@ -175,6 +175,8 @@
   .menu-icon {
     display: block;
     font-size: 2rem;
+    background-color: grey;
+    border-radius: 0.1em;
     color: #333;
     cursor: pointer;
     position: absolute;
